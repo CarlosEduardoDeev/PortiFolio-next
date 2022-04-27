@@ -1,0 +1,53 @@
+.nav_container{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+
+    
+}
+.nav_container h1{
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+.nav_container ul{
+    display: flex;
+    justify-content: center;
+}
+.nav_container a{
+    color: #000;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+.nav_container a:hover{
+    color: rgb(133, 61, 187);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(133, 61, 187);
+    transition: .4s;
+}
+.nav_container li{
+    list-style: none;
+}
+.nav_container span{
+   color: rgb(133, 61, 187); 
+}
+.nav_container a:focus{
+    color: rgb(133, 61, 187);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(133, 61, 187);
+    transition: .4s;
+    
+}

@@ -1,0 +1,197 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.model1{
+    display: flex;
+    animation: animation 2s ease-out ;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid purple;
+    width: 35vw;
+    height: 59vh;
+    color: #fff;
+    text-align: center;
+    max-width: 500px;
+    border: 2px solid transparent;
+    background-color: black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+}
+.model2{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+    height: 60vh;
+    min-width:40vw;
+    min-height: 60vh;
+}
+.model2 h1{
+    text-align: center;
+    
+    color: rgb(89, 7, 152);
+    letter-spacing: 5px;
+    margin-top: 20px;
+    height: 50px;
+    width: 250px;
+    border-bottom: 2px solid black;
+}
+.model2 p{
+    max-width: 500px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.container .box{
+    z-index:-2;
+    position: absolute;
+    border-radius: 25px;
+    background-color:rgb(89, 7, 152) ;
+    width: 30px;
+    height: 30px;
+    margin-top: 500PX;
+    animation: go-back 2s infinite alternate;
+  }
+  .container .box1{
+    border-radius: 50px;
+    background-color:rgb(89, 7, 152,0.5) ;
+    z-index:-2;
+    position: absolute;
+    animation: go-back 2s infinite alternate;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 600PX;
+    margin-right:300PX ;
+  }
+  .container .box2{
+    z-index:-2;
+    position: absolute;
+    border-radius: 25px;
+    background-color:rgb(89, 7, 152) ;
+    width: 40px;
+    height: 40px;
+    margin-top: 300PX;
+    margin-left:400PX ;
+    animation: go-back 2s infinite alternate;
+  }
+  .container .box3{
+    z-index:-1;
+    position: absolute;
+    border-radius: 60px;
+    background-color:rgb(89, 7, 152,0.5) ;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 100PX;
+    margin-right:1300PX ;
+    animation: go-back 3s infinite alternate;
+  }
+  .container .box4{
+    z-index: -1;
+    position: absolute;
+    border-radius: 60px;
+    background-color:rgb(89, 7, 152,0.5) ;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 50PX;
+    margin-left:1300PX ;
+    animation: go-back 3s infinite alternate;
+  }
+
+  @media (max-width:1400px){
+    .model1{
+        margin-top: 30px;
+        display: flex;
+        animation: animation s ease-out ;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid purple;
+        width: 35vw;
+        height: 70vh;
+        color: #fff;
+        text-align: center;
+        max-width: 400px;
+        border: 2px solid transparent;
+        background-color: black;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.6);
+    }
+    .container .box4{
+        z-index: -1;
+        position: absolute;
+        border-radius: 60px;
+        background-color:rgb(89, 7, 152,0.5) ;
+        width: 120px;
+        height: 120px;
+        margin-bottom: 50PX;
+        margin-left:1200PX ;
+        animation: go-back 3s infinite alternate;
+      }
+      .model2{
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+        flex-direction: column;
+        text-align: center;
+        width: 20vw;
+        height: 60vh;
+        max-width:35vw;
+        max-height: 60vh;
+    }
+     .container .box3{
+    z-index:-1;
+    position: absolute;
+    border-radius: 60px;
+    background-color:rgb(89, 7, 152,0.5) ;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 100PX;
+    margin-right:1300PX ;
+    animation: go-back 3s infinite alternate;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98vw;
+    height: 80vh;
+    
+}
+.container .box1{
+    border-radius: 50px;
+    background-color:rgb(89, 7, 152,0.5) ;
+    z-index:-2;
+    position: absolute;
+    animation: go-back 2s infinite alternate;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 500PX;
+    margin-right:300PX ;
+  }
+
+    
+  }
+
+  @keyframes go-back {
+    0% {
+        width: 0%;;
+        height: 0%;
+    }
+  
+    100% {
+        transform: 300px;
+    }
+  }
+  @keyframes animation {
+    0% {
+        margin-right: 100%;
+    }
+
+  
+  }
