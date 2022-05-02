@@ -19,7 +19,7 @@ export default function Sobre(){
             
             <div className={styles.model2}>
             <h1> Sobre mim </h1>
-            <p>My name is Carlos eu tenho 24 anos sou formado em ADS e estudo JS, React, Next e Node  </p>
+            <p>Meu Nome é Carlos eu tenho 24 anos sou formado em ADS e estudo JS, React, Next e Node  </p>
 
             </div>
         </div>

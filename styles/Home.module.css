@@ -12,7 +12,7 @@
   border-radius: 25px;
   background-color:rgb(89, 7, 152) ;
   width: 30px;
-  height: 30px;
+  height: px;
   margin-top: 300PX;
   animation: go-back 3s infinite alternate;
 }
@@ -236,17 +236,15 @@
 
 
 
-@media (max-width:2000px) {
+@media (max-width:1980px) {
   .container_main .model1{
     pointer-events:visiblePainted;
     align-items: center;
     display: flex;
     justify-content: center;
     border: 2px solid transparent;
-    width: 17vw;
-    height: 30vh;
-    min-width: 17vw;
-    min-height: 31vh;
+    width: 18vw;
+    height: 20vh;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     transition: all ease .4s;
@@ -278,7 +276,7 @@
   }
 }
 
-@media (max-height:1090px) {
+@media (max-width:1900px) {
   .container_main .model1{
     pointer-events:visiblePainted;
     align-items: center;
@@ -287,9 +285,9 @@
     border: 2px solid transparent;
     width: 5vw;
     height: 10vh;
-    min-width: 17vw;
+    min-width: 22vw;
     margin-bottom: 80px;
-    min-height:31vh;
+    min-height:40vh;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
     transition: all ease .4s;
@@ -340,7 +338,7 @@
     justify-content: center;
     border: 2px solid transparent;
     width: 24vw;
-    height: 45vh;;
+    height: 4vh;;
     min-width: 24vw;
     min-height: 22vw;   
     border-radius: 20px;
